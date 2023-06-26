@@ -20,6 +20,7 @@
     left:10px;
 }
 
+
 h1 {
     font-size:50px;
 }
@@ -44,7 +45,9 @@ ul {
 table{
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
 }
+
 thead {
     background-color: rgb(106, 179, 235);
 }
@@ -54,3 +57,38 @@ tbody,tfoot{
 #tr-no-color{
     background-color: white;
 }
+table td{
+    padding: 5px;
+}
+section>h5{
+    color: gray;
+    font-size: larger;
+}
+.img-pc{
+    position:relative;
+    margin-top: 10px;
+    width: 250px;
+    height:210px ;
+}
+#Lor1 {
+    position: absolute;
+    top:10px;
+    left:75px;
+    color: white;
+    font-size: larger;
+
+}
+#Lor2 {
+    position:absolute;
+    top:10px;
+    left:75px;
+    color: white;
+    font-size: larger;
+}
+main{
+    margin: 10px;
+}
+.margin{
+    margin-top: 15px;
+}
+
