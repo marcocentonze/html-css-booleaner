@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding:0px;
+    box-sizing: border-box;
 }
  
  
@@ -34,6 +35,22 @@ h6{
 #text-yellow{
     background-color: yellow;
 }
-#text-ul{
-    margin-top: 30px;
+ul {
+    padding-left: 30px;
+}
+#text-tab{
+    padding-left: 30px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+thead {
+    background-color: rgb(106, 179, 235);
+}
+tbody,tfoot{
+    background-color: aqua;
+}
+#tr-no-color{
+    background-color: white;
 }
